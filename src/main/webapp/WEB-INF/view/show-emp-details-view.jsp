@@ -11,7 +11,7 @@
 
 <%--<h3> Your name: ${param.employeeName} </h3>--%>
 
-Your name: ${nameAttribute}
+Your name: ${nameAttribute} ${discription}
 
 </body>
 

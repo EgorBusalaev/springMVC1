@@ -30,6 +30,7 @@ public class MyController {
         String empName = request.getParameter("employeeName");
         empName = "Mr. " + empName;
         model.addAttribute("nameAttribute", empName);
+        model.addAttribute("discription", "- Busalaev");
         return "show-emp-details-view";
     }
 }
